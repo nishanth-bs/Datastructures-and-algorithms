@@ -1,3 +1,5 @@
+import java.util.*;
+import BinaryTreeNode;
 private static class BalanceStatusWithHeight{
 	boolean balanced;
 	int height;
@@ -33,5 +35,7 @@ static BalanceStatusWithHeight checkBalanced( BinaryTreeNode<Integer> tree){
 
 class heightBalancedTree{
 	public static void main(String[] args){
-		BinaryTreeNode<Integer> a = new BinaryTreeNode
+		BinaryTreeNode<Integer> a = new BinaryTreeNode<>();
+	}
+}
 
